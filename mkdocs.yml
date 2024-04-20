@@ -6,6 +6,11 @@ edit_uri: edit/main/docs
 
 nav:
     - Home: index.md
+    - Community Projects: community.md
+    - Server:
+        - Resources:
+            - User: server/resources/user.md
+
 
 theme:
     name: material
@@ -17,6 +22,10 @@ theme:
     features:
         - navigation.instant
         - navigation.instant.progress
+        - navigation.tracking
+        - navigation.sections
+        - navigation.indexed
+        - toc.follow
 
 plugins:
     - git-revision-date-localized:
@@ -24,3 +33,8 @@ plugins:
     - git-committers:
         repository: TrigamDev/gd-docs
         branch: main
+    - git-authors
+    - search
+
+markdown_extensions:
+  - tables
