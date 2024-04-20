@@ -42,6 +42,7 @@ theme:
         - navigation.tracking
         - navigation.sections
         - navigation.indexed
+        - navigation.expand
         - toc.follow
         - content.code.copy
         - content.code.annotate
