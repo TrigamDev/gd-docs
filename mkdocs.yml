@@ -44,6 +44,7 @@ theme:
         - toc.follow
         - content.code.copy
         - content.code.annotate
+        - content.action.edit
 
 plugins:
     - git-revision-date-localized:
