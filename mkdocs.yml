@@ -6,10 +6,21 @@ edit_uri: edit/main/docs
 
 nav:
     - Home: index.md
+    - About: about.md
     - Community Projects: community.md
     - Server:
         - Resources:
             - User: server/resources/user.md
+        - Topics:
+            - Error Codes: server/topics/error.md
+        - Endpoints:
+            - User:
+                - Get User Info: server/endpoints/user/userInfo.md
+    - Client:
+        - Resources:
+            - Gamesave: client/resources/gamesave.md
+        - Topics:
+            - Shop: client/topics/shop.md
 
 
 theme:
@@ -26,6 +37,8 @@ theme:
         - navigation.sections
         - navigation.indexed
         - toc.follow
+        - content.code.copy
+        - content.code.annotate
 
 plugins:
     - git-revision-date-localized:
@@ -36,4 +49,14 @@ plugins:
     - search
 
 markdown_extensions:
-  - tables
+    - tables
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
