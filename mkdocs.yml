@@ -18,7 +18,7 @@ nav:
                 - Get User Info: server/endpoints/user/getGJUserInfo20.md
                 - Get Profile Comments: server/endpoints/user/getGJAccountComments20.md
                 - Get Comment History: server/endpoints/user/getGJCommentHistory.md
-                - Get Friend Requests: server/endpoints/user/getGJFriendRequests.md
+                - Get Friend Requests: server/endpoints/user/getGJFriendRequests20.md
                 - Get User List: server/endpoints/user/getGJUserList20.md
                 - Update User Score: server/endpoints/user/updateGJUserScore22.md
     - Client:
