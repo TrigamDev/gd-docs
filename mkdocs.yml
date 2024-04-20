@@ -33,7 +33,6 @@ plugins:
     - git-committers:
         repository: TrigamDev/gd-docs
         branch: main
-    - git-authors
     - search
 
 markdown_extensions:
