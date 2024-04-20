@@ -1,1 +1,26 @@
 site_name: GD Docs
+
+repo_url: https://github.com/TrigamDev/gd-docs
+repo_name: TrigamDev/gd-docs
+edit_uri: edit/main/docs
+
+nav:
+    - Home: index.md
+
+theme:
+    name: material
+    icon:
+        repo: fontawesome/brands/github
+    palette:
+        scheme: slate
+        primary: indigo
+    features:
+        - navigation.instant
+        - navigation.instant.progress
+
+plugins:
+    - git-revision-date-localized:
+        enable_creation_date: true
+    - git-committers:
+        repository: TrigamDev/gd-docs
+        branch: main
