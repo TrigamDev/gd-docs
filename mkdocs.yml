@@ -15,13 +15,22 @@ nav:
         - Topics:
             - Error Codes: server/topics/error.md
         - Endpoints:
-            - User:
-                - Get User Info: server/endpoints/user/getGJUserInfo20.md
-                - Get Profile Comments: server/endpoints/user/getGJAccountComments20.md
-                - Get Comment History: server/endpoints/user/getGJCommentHistory.md
-                - Get Friend Requests: server/endpoints/user/getGJFriendRequests20.md
-                - Get User List: server/endpoints/user/getGJUserList20.md
-                - Update User Score: server/endpoints/user/updateGJUserScore22.md
+            - Users:
+                - Search Users: server/endpoints/users/getGJUsers20.md
+                - Get User Info: server/endpoints/users/getGJUserInfo20.md
+                - Get Profile Comments: server/endpoints/users/getGJAccountComments20.md
+                - Get Comment History: server/endpoints/users/getGJCommentHistory.md
+                - Get Friend Requests: server/endpoints/users/getGJFriendRequests20.md
+                - Get User List: server/endpoints/users/getGJUserList20.md
+                - Update User Score: server/endpoints/users/updateGJUserScore22.md
+            - Levels:
+                - Search Levels: server/endpoints/levels/getGJLevels21.md
+                - Get Level Info: server/endpoints/levels/downloadGJLevel22.md
+                - Get Level Comments: server/endpoints/levels/getGJComments21.md
+                - Get Level Leaderboard: server/endpoints/levels/getGJLevelScores211.md
+                - Get Song Info: server/endpoints/levels/getGJSongInfo.md
+            - Lists:
+                - Get List Info: server/endpoints/lists/getGJLevelList.md
     - Client:
         - Resources:
             - Gamesave: client/resources/gamesave.md
@@ -46,6 +55,7 @@ theme:
         - content.code.copy
         - content.code.annotate
         - content.action.edit
+        - content.tabs.link
 
 plugins:
     - git-revision-date-localized:
@@ -57,6 +67,7 @@ plugins:
 
 markdown_extensions:
     - tables
+    - admonition
     - pymdownx.highlight:
         anchor_linenums: true
         line_spans: __span
@@ -64,6 +75,6 @@ markdown_extensions:
     - pymdownx.inlinehilite
     - pymdownx.snippets
     - pymdownx.superfences
-    - admonition
     - pymdownx.details
-    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
