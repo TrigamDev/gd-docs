@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://trigamdev.github.io/gd-docs/encoding/gjp2/</loc>
+         <lastmod>2024-04-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://trigamdev.github.io/gd-docs/server/endpoints/levels/downloadGJLevel22/</loc>
          <lastmod>2024-04-21</lastmod>
          <changefreq>daily</changefreq>

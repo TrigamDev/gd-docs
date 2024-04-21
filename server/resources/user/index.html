@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1226,6 +1228,74 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Encoding
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Encoding
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../encoding/gjp2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GJP2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -1374,8 +1444,7 @@
 <p>A typical user server response is structured with a <code>key:value:key:value</code> pairing, with each user object split with a <code>|</code>.</p>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
-<div class="language-md highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>1:Trigam:2:15765803:13:118:17:412:10:94:11:3:51:3:3:4283:52:223:46:15276:4:101:8:0:18:0:19:0:50:1:20:UCT12Cnpkd-6kQEewKv_kqbQ:21:376:22:129:23:30:24:83:25:26:26:34:28:1:43:29:48:15:53:12:54:2:30:117824:16:970465:31:0:44:Trigam04:45:TrigamDev:49:0:55:66,10,5,0,0,2,2,1,0,0,11,3:56:90,50,59,177,138,43,44,68:57:1,2,6,13,11,2,0:29:1
-</span></code></pre></div>
+<pre class="highlight"><code class="language-md">1:Trigam:2:15765803:13:118:17:412:10:94:11:3:51:3:3:4283:52:223:46:15276:4:101:8:0:18:0:19:0:50:1:20:UCT12Cnpkd-6kQEewKv_kqbQ:21:376:22:129:23:30:24:83:25:26:26:34:28:1:43:29:48:15:53:12:54:2:30:117824:16:970465:31:0:44:Trigam04:45:TrigamDev:49:0:55:66,10,5,0,0,2,2,1,0,0,11,3:56:90,50,59,177,138,43,44,68:57:1,2,6,13,11,2,0:29:1</code></pre>
 </div>
 <h2 id="keys"><strong>Keys</strong></h2>
 <p>Each <code>key</code> is tied to a component within the client and the <code>value</code> contains the data for that component.</p>
@@ -1697,8 +1766,7 @@ From left to right, it is in the order of:</p>
 </ul>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
-<div class="language-md highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>66,10,5,0,0,2,2,1,0,0,11,3
-</span></code></pre></div>
+<pre class="highlight"><code class="language-md">66,10,5,0,0,2,2,1,0,0,11,3</code></pre>
 </div>
 <h4 id="level-list"><strong>Level List</strong></h4>
 <p>A user's level list contains all of the classic levels the user has completed.<br />
@@ -1708,8 +1776,7 @@ From left to right, it is in the order of:</p>
 </ul>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
-<div class="language-md highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>90,50,59,177,138,43,44,68
-</span></code></pre></div>
+<pre class="highlight"><code class="language-md">90,50,59,177,138,43,44,68</code></pre>
 </div>
 <h4 id="platformer-level-list"><strong>Platformer Level List</strong></h4>
 <p>A user's platformer level list contains all of the platformer levels the user has completed.<br />
@@ -1719,99 +1786,97 @@ From left to right, it is in the order of:</p>
 </ul>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
-<div class="language-md highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>1,2,6,13,11,2,0
-</span></code></pre></div>
+<pre class="highlight"><code class="language-md">1,2,6,13,11,2,0</code></pre>
 </div>
 <h2 id="parsed-user-example"><strong>Parsed User Example</strong></h2>
 <details class="example" open="open">
 <summary>Example</summary>
-<div class="language-json highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">{</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="err">i</span><span class="kc">nf</span><span class="err">o</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">        </span><span class="err">user</span><span class="kc">na</span><span class="err">me</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Trigam&quot;</span><span class="p">,</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">        </span><span class="err">userId</span><span class="p">:</span><span class="w"> </span><span class="mi">15765803</span><span class="p">,</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">        </span><span class="err">accou</span><span class="kc">nt</span><span class="err">Id</span><span class="p">:</span><span class="w"> </span><span class="mi">970465</span><span class="p">,</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">        </span><span class="err">globalRa</span><span class="kc">n</span><span class="err">k</span><span class="p">:</span><span class="w"> </span><span class="mi">117824</span><span class="p">,</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">        </span><span class="err">modLevel</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span>
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">    </span><span class="p">},</span>
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">    </span><span class="err">s</span><span class="kc">tats</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="w">        </span><span class="err">s</span><span class="kc">tars</span><span class="p">:</span><span class="w"> </span><span class="mi">4298</span><span class="p">,</span>
-</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="w">        </span><span class="err">moo</span><span class="kc">ns</span><span class="p">:</span><span class="w"> </span><span class="mi">223</span><span class="p">,</span>
-</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="w">        </span><span class="err">diamo</span><span class="kc">n</span><span class="err">ds</span><span class="p">:</span><span class="w"> </span><span class="mi">15380</span><span class="p">,</span>
-</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="w">        </span><span class="err">secre</span><span class="kc">t</span><span class="err">Coi</span><span class="kc">ns</span><span class="p">:</span><span class="w"> </span><span class="mi">118</span><span class="p">,</span>
-</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="w">        </span><span class="err">userCoi</span><span class="kc">ns</span><span class="p">:</span><span class="w"> </span><span class="mi">412</span><span class="p">,</span>
-</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="w">        </span><span class="err">crea</span><span class="kc">t</span><span class="err">orPoi</span><span class="kc">nts</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a><span class="w">        </span><span class="err">demo</span><span class="kc">ns</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a><span class="w">            </span><span class="err">classic</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a><span class="w">                </span><span class="err">easy</span><span class="p">:</span><span class="w"> </span><span class="mi">66</span><span class="p">,</span>
-</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a><span class="w">                </span><span class="err">medium</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a><span class="w">                </span><span class="err">hard</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a><span class="w">                </span><span class="err">i</span><span class="kc">nsane</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a><span class="w">                </span><span class="err">ex</span><span class="kc">tre</span><span class="err">me</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span>
-</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a><span class="w">            </span><span class="p">},</span>
-</span><span id="__span-4-24"><a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a><span class="w">            </span><span class="err">pla</span><span class="kc">tf</span><span class="err">ormer</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-25"><a id="__codelineno-4-25" name="__codelineno-4-25" href="#__codelineno-4-25"></a><span class="w">                </span><span class="err">easy</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
-</span><span id="__span-4-26"><a id="__codelineno-4-26" name="__codelineno-4-26" href="#__codelineno-4-26"></a><span class="w">                </span><span class="err">medium</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
-</span><span id="__span-4-27"><a id="__codelineno-4-27" name="__codelineno-4-27" href="#__codelineno-4-27"></a><span class="w">                </span><span class="err">hard</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-</span><span id="__span-4-28"><a id="__codelineno-4-28" name="__codelineno-4-28" href="#__codelineno-4-28"></a><span class="w">                </span><span class="err">i</span><span class="kc">nsane</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-</span><span id="__span-4-29"><a id="__codelineno-4-29" name="__codelineno-4-29" href="#__codelineno-4-29"></a><span class="w">                </span><span class="err">ex</span><span class="kc">tre</span><span class="err">me</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span>
-</span><span id="__span-4-30"><a id="__codelineno-4-30" name="__codelineno-4-30" href="#__codelineno-4-30"></a><span class="w">            </span><span class="p">},</span>
-</span><span id="__span-4-31"><a id="__codelineno-4-31" name="__codelineno-4-31" href="#__codelineno-4-31"></a><span class="w">            </span><span class="err">weekly</span><span class="p">:</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span>
-</span><span id="__span-4-32"><a id="__codelineno-4-32" name="__codelineno-4-32" href="#__codelineno-4-32"></a><span class="w">            </span><span class="err">gau</span><span class="kc">ntlet</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
-</span><span id="__span-4-33"><a id="__codelineno-4-33" name="__codelineno-4-33" href="#__codelineno-4-33"></a><span class="w">            </span><span class="kc">t</span><span class="err">o</span><span class="kc">tal</span><span class="p">:</span><span class="w"> </span><span class="mi">101</span>
-</span><span id="__span-4-34"><a id="__codelineno-4-34" name="__codelineno-4-34" href="#__codelineno-4-34"></a><span class="w">        </span><span class="p">},</span>
-</span><span id="__span-4-35"><a id="__codelineno-4-35" name="__codelineno-4-35" href="#__codelineno-4-35"></a><span class="w">        </span><span class="err">levels</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-36"><a id="__codelineno-4-36" name="__codelineno-4-36" href="#__codelineno-4-36"></a><span class="w">            </span><span class="err">classic</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-37"><a id="__codelineno-4-37" name="__codelineno-4-37" href="#__codelineno-4-37"></a><span class="w">                </span><span class="err">au</span><span class="kc">t</span><span class="err">o</span><span class="p">:</span><span class="w"> </span><span class="mi">90</span><span class="p">,</span>
-</span><span id="__span-4-38"><a id="__codelineno-4-38" name="__codelineno-4-38" href="#__codelineno-4-38"></a><span class="w">                </span><span class="err">easy</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span>
-</span><span id="__span-4-39"><a id="__codelineno-4-39" name="__codelineno-4-39" href="#__codelineno-4-39"></a><span class="w">                </span><span class="kc">n</span><span class="err">ormal</span><span class="p">:</span><span class="w"> </span><span class="mi">59</span><span class="p">,</span>
-</span><span id="__span-4-40"><a id="__codelineno-4-40" name="__codelineno-4-40" href="#__codelineno-4-40"></a><span class="w">                </span><span class="err">hard</span><span class="p">:</span><span class="w"> </span><span class="mi">177</span><span class="p">,</span>
-</span><span id="__span-4-41"><a id="__codelineno-4-41" name="__codelineno-4-41" href="#__codelineno-4-41"></a><span class="w">                </span><span class="err">harder</span><span class="p">:</span><span class="w"> </span><span class="mi">138</span><span class="p">,</span>
-</span><span id="__span-4-42"><a id="__codelineno-4-42" name="__codelineno-4-42" href="#__codelineno-4-42"></a><span class="w">                </span><span class="err">i</span><span class="kc">nsane</span><span class="p">:</span><span class="w"> </span><span class="mi">43</span><span class="p">,</span>
-</span><span id="__span-4-43"><a id="__codelineno-4-43" name="__codelineno-4-43" href="#__codelineno-4-43"></a><span class="w">                </span><span class="err">daily</span><span class="p">:</span><span class="w"> </span><span class="mi">44</span><span class="p">,</span>
-</span><span id="__span-4-44"><a id="__codelineno-4-44" name="__codelineno-4-44" href="#__codelineno-4-44"></a><span class="w">                </span><span class="err">gau</span><span class="kc">ntlet</span><span class="p">:</span><span class="w"> </span><span class="mi">68</span>
-</span><span id="__span-4-45"><a id="__codelineno-4-45" name="__codelineno-4-45" href="#__codelineno-4-45"></a><span class="w">            </span><span class="p">},</span>
-</span><span id="__span-4-46"><a id="__codelineno-4-46" name="__codelineno-4-46" href="#__codelineno-4-46"></a><span class="w">            </span><span class="err">pla</span><span class="kc">tf</span><span class="err">ormer</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-47"><a id="__codelineno-4-47" name="__codelineno-4-47" href="#__codelineno-4-47"></a><span class="w">                </span><span class="err">au</span><span class="kc">t</span><span class="err">o</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-</span><span id="__span-4-48"><a id="__codelineno-4-48" name="__codelineno-4-48" href="#__codelineno-4-48"></a><span class="w">                </span><span class="err">easy</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
-</span><span id="__span-4-49"><a id="__codelineno-4-49" name="__codelineno-4-49" href="#__codelineno-4-49"></a><span class="w">                </span><span class="kc">n</span><span class="err">ormal</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span>
-</span><span id="__span-4-50"><a id="__codelineno-4-50" name="__codelineno-4-50" href="#__codelineno-4-50"></a><span class="w">                </span><span class="err">hard</span><span class="p">:</span><span class="w"> </span><span class="mi">13</span><span class="p">,</span>
-</span><span id="__span-4-51"><a id="__codelineno-4-51" name="__codelineno-4-51" href="#__codelineno-4-51"></a><span class="w">                </span><span class="err">harder</span><span class="p">:</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span>
-</span><span id="__span-4-52"><a id="__codelineno-4-52" name="__codelineno-4-52" href="#__codelineno-4-52"></a><span class="w">                </span><span class="err">i</span><span class="kc">nsane</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span>
-</span><span id="__span-4-53"><a id="__codelineno-4-53" name="__codelineno-4-53" href="#__codelineno-4-53"></a><span class="w">            </span><span class="p">}</span>
-</span><span id="__span-4-54"><a id="__codelineno-4-54" name="__codelineno-4-54" href="#__codelineno-4-54"></a><span class="w">        </span><span class="p">}</span>
-</span><span id="__span-4-55"><a id="__codelineno-4-55" name="__codelineno-4-55" href="#__codelineno-4-55"></a><span class="w">    </span><span class="p">},</span>
-</span><span id="__span-4-56"><a id="__codelineno-4-56" name="__codelineno-4-56" href="#__codelineno-4-56"></a><span class="w">    </span><span class="err">ico</span><span class="kc">ns</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-57"><a id="__codelineno-4-57" name="__codelineno-4-57" href="#__codelineno-4-57"></a><span class="w">        </span><span class="err">colors</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-58"><a id="__codelineno-4-58" name="__codelineno-4-58" href="#__codelineno-4-58"></a><span class="w">            </span><span class="err">primary</span><span class="p">:</span><span class="w"> </span><span class="mi">94</span><span class="p">,</span>
-</span><span id="__span-4-59"><a id="__codelineno-4-59" name="__codelineno-4-59" href="#__codelineno-4-59"></a><span class="w">            </span><span class="err">seco</span><span class="kc">n</span><span class="err">dary</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
-</span><span id="__span-4-60"><a id="__codelineno-4-60" name="__codelineno-4-60" href="#__codelineno-4-60"></a><span class="w">            </span><span class="err">glow</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span>
-</span><span id="__span-4-61"><a id="__codelineno-4-61" name="__codelineno-4-61" href="#__codelineno-4-61"></a><span class="w">        </span><span class="p">},</span>
-</span><span id="__span-4-62"><a id="__codelineno-4-62" name="__codelineno-4-62" href="#__codelineno-4-62"></a><span class="w">        </span><span class="err">glow</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-</span><span id="__span-4-63"><a id="__codelineno-4-63" name="__codelineno-4-63" href="#__codelineno-4-63"></a><span class="w">        </span><span class="err">cube</span><span class="p">:</span><span class="w"> </span><span class="mi">376</span><span class="p">,</span>
-</span><span id="__span-4-64"><a id="__codelineno-4-64" name="__codelineno-4-64" href="#__codelineno-4-64"></a><span class="w">        </span><span class="err">ship</span><span class="p">:</span><span class="w"> </span><span class="mi">129</span><span class="p">,</span>
-</span><span id="__span-4-65"><a id="__codelineno-4-65" name="__codelineno-4-65" href="#__codelineno-4-65"></a><span class="w">        </span><span class="err">ball</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span>
-</span><span id="__span-4-66"><a id="__codelineno-4-66" name="__codelineno-4-66" href="#__codelineno-4-66"></a><span class="w">        </span><span class="err">u</span><span class="kc">f</span><span class="err">o</span><span class="p">:</span><span class="w"> </span><span class="mi">83</span><span class="p">,</span>
-</span><span id="__span-4-67"><a id="__codelineno-4-67" name="__codelineno-4-67" href="#__codelineno-4-67"></a><span class="w">        </span><span class="err">wave</span><span class="p">:</span><span class="w"> </span><span class="mi">26</span><span class="p">,</span>
-</span><span id="__span-4-68"><a id="__codelineno-4-68" name="__codelineno-4-68" href="#__codelineno-4-68"></a><span class="w">        </span><span class="err">robo</span><span class="kc">t</span><span class="p">:</span><span class="w"> </span><span class="mi">34</span><span class="p">,</span>
-</span><span id="__span-4-69"><a id="__codelineno-4-69" name="__codelineno-4-69" href="#__codelineno-4-69"></a><span class="w">        </span><span class="err">spider</span><span class="p">:</span><span class="w"> </span><span class="mi">29</span><span class="p">,</span>
-</span><span id="__span-4-70"><a id="__codelineno-4-70" name="__codelineno-4-70" href="#__codelineno-4-70"></a><span class="w">        </span><span class="err">swi</span><span class="kc">n</span><span class="err">g</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span>
-</span><span id="__span-4-71"><a id="__codelineno-4-71" name="__codelineno-4-71" href="#__codelineno-4-71"></a><span class="w">        </span><span class="err">je</span><span class="kc">t</span><span class="err">pack</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span>
-</span><span id="__span-4-72"><a id="__codelineno-4-72" name="__codelineno-4-72" href="#__codelineno-4-72"></a><span class="w">        </span><span class="err">dea</span><span class="kc">t</span><span class="err">hE</span><span class="kc">ffe</span><span class="err">c</span><span class="kc">t</span><span class="p">:</span><span class="w"> </span><span class="mi">15</span><span class="p">,</span>
-</span><span id="__span-4-73"><a id="__codelineno-4-73" name="__codelineno-4-73" href="#__codelineno-4-73"></a><span class="w">    </span><span class="p">},</span>
-</span><span id="__span-4-74"><a id="__codelineno-4-74" name="__codelineno-4-74" href="#__codelineno-4-74"></a><span class="w">    </span><span class="err">social</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-75"><a id="__codelineno-4-75" name="__codelineno-4-75" href="#__codelineno-4-75"></a><span class="w">        </span><span class="err">whoCa</span><span class="kc">n</span><span class="err">Message</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-</span><span id="__span-4-76"><a id="__codelineno-4-76" name="__codelineno-4-76" href="#__codelineno-4-76"></a><span class="w">        </span><span class="err">whoCa</span><span class="kc">n</span><span class="err">Frie</span><span class="kc">n</span><span class="err">d</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-</span><span id="__span-4-77"><a id="__codelineno-4-77" name="__codelineno-4-77" href="#__codelineno-4-77"></a><span class="w">        </span><span class="err">regis</span><span class="kc">tere</span><span class="err">d</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
-</span><span id="__span-4-78"><a id="__codelineno-4-78" name="__codelineno-4-78" href="#__codelineno-4-78"></a><span class="w">        </span><span class="kc">fr</span><span class="err">ie</span><span class="kc">n</span><span class="err">dS</span><span class="kc">tate</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-</span><span id="__span-4-79"><a id="__codelineno-4-79" name="__codelineno-4-79" href="#__codelineno-4-79"></a><span class="w">        </span><span class="err">whoCa</span><span class="kc">n</span><span class="err">SeeComme</span><span class="kc">nts</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span>
-</span><span id="__span-4-80"><a id="__codelineno-4-80" name="__codelineno-4-80" href="#__codelineno-4-80"></a><span class="w">    </span><span class="p">},</span>
-</span><span id="__span-4-81"><a id="__codelineno-4-81" name="__codelineno-4-81" href="#__codelineno-4-81"></a><span class="w">    </span><span class="err">co</span><span class="kc">nne</span><span class="err">c</span><span class="kc">t</span><span class="err">io</span><span class="kc">ns</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-82"><a id="__codelineno-4-82" name="__codelineno-4-82" href="#__codelineno-4-82"></a><span class="w">        </span><span class="err">you</span><span class="kc">tu</span><span class="err">be</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;UCT12Cnpkd-6kQEewKv_kqbQ&quot;</span><span class="p">,</span>
-</span><span id="__span-4-83"><a id="__codelineno-4-83" name="__codelineno-4-83" href="#__codelineno-4-83"></a><span class="w">        </span><span class="kc">t</span><span class="err">wi</span><span class="kc">tter</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Trigam04&quot;</span><span class="p">,</span>
-</span><span id="__span-4-84"><a id="__codelineno-4-84" name="__codelineno-4-84" href="#__codelineno-4-84"></a><span class="w">        </span><span class="kc">t</span><span class="err">wi</span><span class="kc">t</span><span class="err">ch</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;TrigamDev&quot;</span>
-</span><span id="__span-4-85"><a id="__codelineno-4-85" name="__codelineno-4-85" href="#__codelineno-4-85"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-4-86"><a id="__codelineno-4-86" name="__codelineno-4-86" href="#__codelineno-4-86"></a><span class="p">}</span>
-</span></code></pre></div>
+<pre class="highlight"><code class="language-json">{
+    info: {
+        username: "Trigam",
+        userId: 15765803,
+        accountId: 970465,
+        globalRank: 117824,
+        modLevel: 0
+    },
+    stats: {
+        stars: 4298,
+        moons: 223,
+        diamonds: 15380,
+        secretCoins: 118,
+        userCoins: 412,
+        creatorPoints: 0,
+        demons: {
+            classic: {
+                easy: 66,
+                medium: 10,
+                hard: 5,
+                insane: 0,
+                extreme: 0
+            },
+            platformer: {
+                easy: 2,
+                medium: 2,
+                hard: 1,
+                insane: 0,
+                extreme: 0
+            },
+            weekly: 11,
+            gauntlet: 3,
+            total: 101
+        },
+        levels: {
+            classic: {
+                auto: 90,
+                easy: 50,
+                normal: 59,
+                hard: 177,
+                harder: 138,
+                insane: 43,
+                daily: 44,
+                gauntlet: 68
+            },
+            platformer: {
+                auto: 1,
+                easy: 2,
+                normal: 6,
+                hard: 13,
+                harder: 11,
+                insane: 2
+            }
+        }
+    },
+    icons: {
+        colors: {
+            primary: 94,
+            secondary: 3,
+            glow: 3
+        },
+        glow: 1,
+        cube: 376,
+        ship: 129,
+        ball: 30,
+        ufo: 83,
+        wave: 26,
+        robot: 34,
+        spider: 29,
+        swing: 12,
+        jetpack: 2
+        deathEffect: 15,
+    },
+    social: {
+        whoCanMessage: 0,
+        whoCanFriend: 0,
+        registered: true,
+        friendState: 0,
+        whoCanSeeComments: 1
+    },
+    connections: {
+        youtube: "UCT12Cnpkd-6kQEewKv_kqbQ",
+        twitter: "Trigam04",
+        twitch: "TrigamDev"
+    }
+}</code></pre>
 </details>
 <h2 id="trivia"><strong>Trivia</strong></h2>
 <ul>
@@ -1904,6 +1969,10 @@ From left to right, it is in the order of:</p>
     
     
       <script src="../../../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+      
+        <script src="../../../scripts/config.js"></script>
       
     
   </body>
