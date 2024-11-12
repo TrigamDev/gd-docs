@@ -13,7 +13,7 @@ Gets the account info of a specific user, supplied by their account ID.
 | gdw | 0 | **Integer** | ✖ | Whether the request is being made from Geometry Dash World. |
 | accountID | - | **Integer** | ✖ | The account ID of the user making the request. |
 | uuid | - | **Integer** | ✖ | The user ID of the user making the request. |
-| udid | - | **String** | ✖ | The [UDID](./topics/encoding/udid) |
+| udid | - | **String** | ✖ | The [UDID](topics/encoding/udid) |
 | gjp2 | - | **GJP2** | ✖ | The GJP2 of the user making the request. |
 
 !!! note

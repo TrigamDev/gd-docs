@@ -49,6 +49,7 @@ plugins:
         branch: main
         token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
     - search
+	- abs-to-rel
 
 markdown_extensions:
     - tables
