@@ -12,15 +12,15 @@ nav:
     - Server:
         - Resources:
             - User: server/resources/user.md
-        - Topics:
+        #- Topics:
         - Endpoints:
             - Users:
                 - Get User Info: server/endpoints/users/getGJUserInfo20.md
-            - Levels:
-            - Lists:
-    - Client:
-        - Resources:
-        - Topics:
+            #- Levels:
+            #- Lists:
+    #- Client:
+        #- Resources:
+        #- Topics:
     - Encoding:
         - GJP: encoding/gjp.md
 
