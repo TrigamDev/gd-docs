@@ -8,7 +8,7 @@ Gets the account info of a specific user, supplied by their account ID.
 | targetAccountID | - | **Integer** | **✔** | The account ID of the user you want to get the information of. |
 | secret | Wmfd2893gb7 | **String** | **✔** | A 'password' needed for all API requests. |
 | gameVersion | 22 | **Integer** | ✖ | The version of Geometry Dash. |
-| binaryVersion | 40 | **Integer** | ✖ | The version of the Geometry Dash servers. |
+| binaryVersion | 42 | **Integer** | ✖ | The version of the Geometry Dash servers. |
 | gdw | 0 | **Integer** | ✖ | Whether the request is being made from Geometry Dash World. |
 | accountID | - | **Integer** | ✖ | The account ID of the user making the request. |
 | uuid | - | **Integer** | ✖ | The user ID of the user making the request. |
