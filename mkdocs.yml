@@ -16,7 +16,8 @@ nav:
             - Users:
                 - Get User Info: server/endpoints/users/getGJUserInfo20.md
             - Levels:
-                - Get Daily Level: server/endpoints/levels/getGJDailyLevel.md
+                - Event:
+                    - Get Daily Level: server/endpoints/levels/event/getGJDailyLevel.md
     - Encoding:
         - GJP: encoding/gjp.md
         - UDID: encoding/udid.md
@@ -49,7 +50,7 @@ plugins:
         branch: main
         token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
     - search
-    - abs-to-rel
+    - site-urls
 
 markdown_extensions:
     - tables
