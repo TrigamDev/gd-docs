@@ -37,7 +37,7 @@ nav:
         - Topics:
             - Shop: client/topics/shop.md
     - Encoding:
-        - GJP2: encoding/gjp2.md
+        - GJP: encoding/gjp.md
 
 
 theme:
