@@ -6,7 +6,7 @@ A typical user server response is structured with a `key:value:key:value` pairin
 
 !!! example
 	```
-	1:Trigam:2:15765803:13:118:17:568:10:94:11:3:51:3:3:5568:52:446:46:20404:4:152:8:0:18:0:19:0:50:1:20:UCT12Cnpkd-6kQEewKv_kqbQ:21:376:22:129:23:30:24:83:25:26:26:34:28:1:43:29:48:15:53:12:54:2:30:83343:16:970465:31:0:44:Trigam04:45:TrigamDev:49:0:55:83,14,4,0,0,5,5,2,0,0,18,20:56:93,54,62,201,178,55,67,109:57:1,6,10,21,22,5,0:29:1
+	1:RobTop:2:16:13:20:17:175:10:35:11:2:51:0:3:2966:52:180:46:3259:4:5:8:0:18:2:19:1:50:0:20:UCz_yk8mDSAnxJq0ar66L4sw:21:483:22:1:23:1:24:1:25:1:26:1:28:0:43:1:48:1:53:1:54:1:30:258348:16:71:31:0:44:RobTopGames:45:robtopgames:49:2:55:2,2,1,0,0,0,0,0,0,0,0,0:56:51,32,82,280,105,20,71,5:57:0,3,6,21,6,2,0:29:1
 	```
 
 ## **Keys**
@@ -79,7 +79,7 @@ From left to right, it is in the order of:
 
 !!! example
 	```md
-	83,14,4,0,0,5,5,2,0,0,18,20
+	2,2,1,0,0,0,0,0,0,0,0,0
 	```
 
 #### **Level List**
@@ -90,7 +90,7 @@ From left to right, it is in the order of:
 
 !!! example
 	```md
-	93,54,62,201,178,55,67,109
+	51,32,82,280,105,20,71,5
 	```
 
 #### **Platformer Level List**
@@ -101,7 +101,7 @@ From left to right, it is in the order of:
 
 !!! example
 	```md
-	1,6,10,21,22,5,0
+	0,3,6,21,6,2,0
 	```
 
 ## **Parsed User Example**
@@ -109,98 +109,98 @@ From left to right, it is in the order of:
 	```json
 	{
 		info: {
-			username: "Trigam",
-			userId: 15765803,
-			globalRank: 83343,
-			accountId: 970465,
-			modLevel: "none",
+			username: "RobTop",
+			userId: 16,
+			globalRank: 258348,
+			accountId: 71,
+			modLevel: "elder_mod"
 		},
 		stats: {
 			levels: {
 				classic: {
-					auto: 93,
-					easy: 54,
-					normal: 62,
-					hard: 201,
-					harder: 178,
-					insane: 55,
-					daily: 67,
-					gauntlet: 109,
-					total: 819,
-					unique: 643,
+					auto: 51,
+					easy: 32,
+					normal: 82,
+					hard: 280,
+					harder: 105,
+					insane: 20,
+					daily: 71,
+					gauntlet: 5,
+					total: 646,
+					unique: 570
 				},
 				platformer: {
-					auto: 1,
-					easy: 6,
-					normal: 10,
+					auto: 0,
+					easy: 3,
+					normal: 6,
 					hard: 21,
-					harder: 22,
-					insane: 5,
-					total: 65,
-					unique: 65,
+					harder: 6,
+					insane: 2,
+					total: 38,
+					unique: 38
 				},
-				total: 884,
-				unique: 708,
+				total: 684,
+				unique: 608
 			},
-			secretCoins: 118,
-			userCoins: 568,
-			stars: 5568,
-			moons: 446,
-			diamonds: 20404,
+			secretCoins: 20,
+			userCoins: 175,
+			stars: 2966,
+			moons: 180,
+			diamonds: 3259,
 			creatorPoints: 0,
 			demons: {
 				classic: {
-					easy: 83,
-					medium: 14,
-					hard: 4,
+					easy: 2,
+					medium: 2,
+					hard: 1,
 					insane: 0,
 					extreme: 0,
-					total: 101,
+					total: 5
 				},
 				platformer: {
-					easy: 5,
-					medium: 5,
-					hard: 2,
+					easy: 0,
+					medium: 0,
+					hard: 0,
 					insane: 0,
 					extreme: 0,
-					total: 12,
+					total: 0
 				},
-				weekly: 18,
-				gauntlet: 20,
-				total: 152,
-				unique: 113,
-			},
+				weekly: 0,
+				gauntlet: 0,
+				total: 5,
+				unique: 5
+			}
 		},
 		icons: {
 			colors: {
-				primary: 94,
-				secondary: 3,
-				glow: 3,
+				primary: 35,
+				secondary: 2,
+				glow: 0
 			},
-			cube: 376,
-			ship: 129,
-			ball: 30,
-			ufo: 83,
-			wave: 26,
-			robot: 34,
-			hasGlow: true,
-			spider: 29,
-			deathEffect: 15,
-			swing: 12,
-			jetpack: 2,
+			cube: 483,
+			ship: 1,
+			ball: 1,
+			ufo: 1,
+			wave: 1,
+			robot: 1,
+			hasGlow: false,
+			spider: 1,
+			deathEffect: 1,
+			swing: 1,
+			jetpack: 1
 		},
 		social: {
-			whoCanMessage: "all",
-			whoCanFriend: "all",
-			whoCanSeeComments: "friends",
+			whoCanMessage: "none",
+			whoCanFriend: "none",
+			whoCanSeeComments: "all",
 			friendState: "none",
-			registered: true,
+			registered: true
 		},
 		connections: {
-			youtube: "https://www.youtube.com/channel/UCT12Cnpkd-6kQEewKv_kqbQ",
-			twitter: "https://twitter.com/Trigam04",
-			twitch: "https://www.twitch.tv/TrigamDev",
-		},
+			youtube: "https://www.youtube.com/channel/UCz_yk8mDSAnxJq0ar66L4sw",
+			twitter: "https://twitter.com/RobTopGames",
+			twitch: "https://www.twitch.tv/robtopgames"
+		}
 	}
 	```
 
