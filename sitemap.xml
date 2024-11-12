@@ -21,6 +21,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://trigamdev.github.io/gd-docs/encoding/udid/</loc>
+         <lastmod>2024-11-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://trigamdev.github.io/gd-docs/server/endpoints/levels/event/getGJDailyLevel/</loc>
+         <lastmod>2024-11-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://trigamdev.github.io/gd-docs/server/endpoints/users/getGJUserInfo20/</loc>
          <lastmod>2024-11-12</lastmod>
          <changefreq>daily</changefreq>
