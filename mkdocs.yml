@@ -12,20 +12,14 @@ nav:
     - Server:
         - Resources:
             - User: server/resources/user.md
-        #- Topics:
         - Endpoints:
             - Users:
                 - Get User Info: server/endpoints/users/getGJUserInfo20.md
             - Levels:
                 - Get Daily Level: server/endpoints/levels/getGJDailyLevel.md
-            #- Lists:
-    #- Client:
-        #- Resources:
-        #- Topics:
     - Encoding:
         - GJP: encoding/gjp.md
-		- UDID: encoding/udid.md
-
+        - UDID: encoding/udid.md
 
 theme:
     name: material
