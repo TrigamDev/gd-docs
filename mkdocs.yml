@@ -16,13 +16,15 @@ nav:
         - Endpoints:
             - Users:
                 - Get User Info: server/endpoints/users/getGJUserInfo20.md
-            #- Levels:
+            - Levels:
+                - Get Daily Level: server/endpoints/levels/getGJDailyLevel.md
             #- Lists:
     #- Client:
         #- Resources:
         #- Topics:
     - Encoding:
         - GJP: encoding/gjp.md
+		- UDID: encoding/udid.md
 
 
 theme:
